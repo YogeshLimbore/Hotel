@@ -22,9 +22,13 @@ var Userid = document.querySelector("#Uname");
 var Password = document.querySelector("#Pas");
 let xyz = document.querySelector("#loginsubmit");
 let yza = document.querySelector("#Crlogin");
+
+
 yza.addEventListener('click', () => {
     window.location.href = "/LoginD/Clogin";
 });
+
+
 
 xyz.addEventListener('click', () => {
 
@@ -36,17 +40,20 @@ xyz.addEventListener('click', () => {
 
     $.ajax({
         type: "POST",
-        url: "/Home/LoginSubmit",
-        dataType: "json",
-        data: { userName: username, password: PassWord },
+        url: "/LoginD/LoginSubmit",
+        data: { userID: username, PassWord: PassWord },
         success: function (jsonString) {
-            console.log("Yes")
+            if (jsonString) {
+                window.location.href = "/Home/Index";
+            }
+            else {
+                window.location.href = "/LoginD/Login";
+            }
         },
         error: function () {
-            console.log("N0")
+            alert("Login failed. Please check your username and password.");
         }
     });
-
 
     console.log('Stored Username:', localStorage.getItem('username'));
     console.log('Stored Password:', localStorage.getItem('password'));

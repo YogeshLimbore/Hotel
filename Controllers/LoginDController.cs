@@ -2,13 +2,15 @@
 using hotel.Models;
 using hotel.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using NuGet.Packaging.Signing;
 
 namespace hotel.Controllers
 {
     public class LoginDController : Controller
     {
 
-
+        public bool IsValidUser {  get; set; }
 
 
 
@@ -46,16 +48,33 @@ namespace hotel.Controllers
         }
 
 
-        //[HttpPost]
-        //public IActionResult LoginSubmit(string userName, string password, string email)
-        //{
-        //    Login lg = new Login();
-        //    lg.userName = userName;
-        //    lg.password = password;
-        //    lg.email = email;
-        //    return Json(lg);
-        //}
 
+
+        [HttpPost]
+        public IActionResult LoginSubmit(string userID, string PassWord)
+        {
+   
+            var allUsers = dbContext.Details.ToList();
+            // Loop through each user
+            foreach (var user in allUsers)
+            {
+                // Check if the user's username matches the provided username
+                if (user.UserName == userID)
+                {
+                    // If the usernames match, check if the passwords match
+                    if (user.Password == PassWord)
+                    {
+                        // Authentication successful, redirect to home page
+                        IsValidUser = true;
+                        break;
+                    }
+                }
+            }
+
+            // Authentication failed, return an error message
+            ViewBag.ErrorMessage = "Invalid username or password";
+            return Json(IsValidUser);
+        }
 
 
         public IActionResult Login()

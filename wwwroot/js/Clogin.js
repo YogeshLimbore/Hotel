@@ -72,8 +72,8 @@ click.addEventListener('click', () => {
 
 
 document.addeventlistener("domcontentloaded", function () {
-    var cnlogin = document.queryselector(".signupbtn");
+    var cnlogin = document.queryselector("#can");
     cnlogin.onclick = function () {
-        window.location.href = "/login/clogin";
+        window.location.href = "/LoginD/Login";
     };
 });
