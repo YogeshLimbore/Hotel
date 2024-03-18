@@ -1,0 +1,35 @@
+.testB {
+    align-self : center;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.address-items {
+    display: block;
+    position: relative;
+    bottom: 400px;
+    left: 700px;
+    text-align: center;
+    height: 300px;
+    width: 350px;
+    color: black;
+    list-style-type:none;
+}
+
+.hotelimage{
+    display:block;
+    height:500px;
+    width:650px;
+    background-color:aquamarine;
+    background-image:url(/images/hotel.jpg);
+    background-size:cover;
+}
+
+

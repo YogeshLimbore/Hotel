@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+body{
+    height:100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+
+
+
+
+#Headr {
+    height: 10px;
+    background-color: #a8a7a7;
+    color: #FFD700;
+    color: azure;
+}
+
+#Navbar {
+    height:6em;
+    background-color: #E4E4E4;
+    color: black;
+}
+
+.logo {
+    display: inline-block;
+ 
+}
+#logo {
+    margin-top:1em;
+    margin-left:2.2em;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+    border: 2px solid coral;
+    border-radius: 50%;
+}
+
+#BName {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+
+a {
+    margin-left: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size:20px;
+}
+
+
+.Content {
+    height: 100%;
+    width:100%;
+    background-color: #d6dcde;
+}
+
+button {
+    background-color: rgb(10, 3, 0);
+    color:azure;
+}
+
+
+
+
+
+@media (min-width: 576px) {
+    /* Example: Adjusting font size for small screens */
+    #first {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Example: Adjusting layout for medium screens */
+    #first {
+        left: 150px;
+        bottom: 600px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Example: Adjusting layout for large screens */
+    #first {
+        left: 200px;
+        bottom: 550px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Example: Adjusting layout for extra-large screens */
+    #first {
+        left: 250px;
+        bottom: 500px;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* Example: Adjusting layout for extra-extra-large screens */
+    #first {
+        left: 300px;
+        bottom: 450px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: block;
+    height: 70px;
+    font-size: 18px;
+    color: black;
+    background-color: #E4E4E4;
+    text-align: center;
+    position: relative;
+    top: 100%;
+    bottom: 0%;
+    line-height: 30px;
+}
+
+
+
+
+.onClick {
+    border: solid white 2px; /* Border style when mouseover */
+}
+
+.nClick {
+    
+}

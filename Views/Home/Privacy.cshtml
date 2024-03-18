@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Create New Account";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="ContentBox" id="Box1">@Model.pType</div>
+<div class="ContentBox" id="Box2">special fish dishes</div>
+<div class="ContentBox" id="Box3">special veg dishes</div>
+<div class="ContentBox" id="Box4">special combo</div>
+            this is product @Model.pType
+<br />
+            and it is @Model.productName
+
+
+
+            #Box2 {
+    position: relative;
+    background-image: url("/images/Vaam.jpg");
+    background-size: cover;
+}
+
+#Box3 {
+    position: relative;
+    background-image: url("/images/soybin.jpg");
+    background-size: cover;
+}
+
+#Box4 {
+    position: relative;
+    background-image: url("/images/thali.jpg");
+    background-size: cover;
+}

@@ -1,0 +1,444 @@
+﻿h1 {
+    color: #EB3467;
+    background-color: #d6dcde;
+}
+
+.onimage {
+    border: solid white 4px; /* Border style when mouseover */
+}
+
+.notonimage {
+    border: solid black 4px; /* Border style when not mouseover */
+}
+
+
+.ContentBox {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 2px 2px 2px 2px;
+    background-color: rgba(255, 0, 0, 0.5);
+    
+}
+
+#Box1 {
+    position: relative;
+    
+    background-image: url("/images/roast.jpg");
+    background-size: cover;
+}
+
+#Box2 {
+    position: relative;
+    background-image: url("/images/Vaam.jpg");
+    background-size: cover;
+}
+
+#Box3 {
+    position: relative;
+    background-image: url("/images/sporonce.jpeg");
+    background-size: cover;
+}
+
+#Box4 {
+    position: relative;
+   
+    background-image: url("/images/thali.jpg");
+    background-size: cover;
+}
+
+#Box5 {
+    position: relative;
+    background-image: url("/images/fDry.jpg");
+    background-size: cover;
+}
+
+#Box6 {
+    position: relative;
+    background-image: url("/images/fishCurry.jpg");
+    background-size: cover;
+}
+
+#Box7 {
+    position: relative;
+    background-image: url("/images/mutton.jpg");
+    background-size: cover;
+}
+
+#Box8 {
+    position: relative;
+    background-image: url("/images/chiken.jpg");
+    background-size: cover;
+}
+
+#Box9 {
+    position: relative;
+    background-image: url("/images/biryani.jpg");
+    background-size: cover;
+}
+
+#Box10 {
+    position: relative;
+    background-image: url("/images/koliwada.jpg");
+    background-size: cover;
+}
+
+#Box11 {
+    position: relative;
+    background-image: url("/images/crab.jpg");
+    background-size: cover;
+}
+
+#Box12 {
+    position: relative;
+    background-image: url("/images/eggomlet.jpg");
+    background-size: cover;
+}
+
+#Box13 {
+    position: relative;
+    background-image: url("/images/sukat.jpg");
+    background-size: cover;
+}
+
+
+/*Non-Veg*/
+
+
+#NBox1 {
+    position: relative;
+    background-image: url("/imagesf/closeup-shot-deliciously-prepared-chicken-served-with-onions-chili-sauce.jpg");
+    background-size: cover;
+}
+
+
+#NBox2 {
+    position: relative;
+    background-image: url("/imagesf/Chicken cake.jpeg.jpg");
+    background-size: cover;
+}
+
+
+#NBox3 {
+    position: relative;
+    background-image: url("/imagesf/Chicken-Majestic-.jpg");
+    background-size: cover;
+}
+
+
+#NBox4 {
+    position: relative;
+    background-image: url("/imagesf/Chilli-Prawns-.jpg");
+    background-size: cover;
+}
+
+
+
+#NBox5 {
+    position: relative;
+    background-image: url("/imagesf/delicious-chicken-table.jpg");
+    background-size: cover;
+}
+
+
+#NBox6 {
+    position: relative;
+    background-image: url("/imagesf/fishf.png");
+    background-size: cover;
+}
+
+
+#NBox7 {
+    position: relative;
+    background-image: url("/imagesf/fishfr.jpg");
+    background-size: cover;
+
+}
+
+
+#NBox8 {
+    position: relative;
+    background-image: url("/imagesf/fisht.jpg");
+    background-size: cover;
+}
+
+
+#NBox9 {
+    position: relative;
+    background-image: url("/imagesf/side-view-baked-chicken-with-cucumber-lemon-seasoning-bread-table.jpg");
+    background-size: cover;
+}
+
+
+#NBox10 {
+    position: relative;
+    background-image: url("/imagesf/gary-moreton-jones-V7GTcaitu-I-unsplash.jpg");
+    background-size: cover;
+}
+
+
+#NBox11 {
+    position: relative;
+    background-image: url("/imagesf/non8.jpg");
+    background-size: cover;
+}
+
+#NBox12 {
+    position: relative;
+    background-image: url("/imagesf/pexels-jorge-luis-somarriba-noguera-20378738.jpg");
+    background-size: cover;
+}
+
+#NBox13 {
+    position: relative;
+    background-image: url("/imagesf/pexels-kaboompics-com-5618.jpg");
+    background-size: cover;
+}
+
+#NBox14 {
+    position: relative;
+    background-image: url("/imagesf/pexels-mohamad-sadek-10361458.jpg");
+    background-size: cover;
+}
+
+#NBox15 {
+    position: relative;
+    background-image: url("/imagesf/pexels-saveurs-secretes-9392999.jpg");
+    background-size: cover;
+}
+
+
+#NBox16 {
+    position: relative;
+    background-image: url("/imagesf/pexels-tim-douglas-6210959.jpg");
+    background-size: cover;
+}
+
+
+#NBox17 {
+    position: relative;
+    background-image: url("/images/biryani.jpg");
+    background-size: cover;
+}
+
+
+#NBox18 {
+    position: relative;
+    background-image: url("/images/eggomlet.jpg");
+    background-size: cover;
+}
+
+
+#NBox19 {
+    position: relative;
+    background-image: url("/images/fishCurry.jpg");
+    background-size: cover;
+}
+
+
+#NBox20 {
+    position: relative;
+    background-image: url("/imagesf/non9.jpg");
+    background-size: cover;
+}
+
+#NBox21 {
+    position: relative;
+    background-image: url("/imagesf/non1.jpg");
+    background-size: cover;
+}
+
+#NBox22 {
+    position: relative;
+    background-image: url("/imagesf/non2.jpg");
+    background-size: cover;
+}
+
+#NBox23 {
+    position: relative;
+    background-image: url("/imagesf/non3.jpg");
+    background-size: cover;
+}
+
+#NBox24 {
+    position: relative;
+    background-image: url("/imagesf/non4.jpg");
+    background-size: cover;
+}
+
+#NBox25 {
+    position: relative;
+    background-image: url("/imagesf/non5.jpg");
+    background-size: cover;
+}
+
+#NBox26 {
+    position: relative;
+    background-image: url("/imagesf/non6.jpg");
+    background-size: cover;
+}
+
+/*Veg*/
+
+
+
+#box1{
+    position: relative;
+    background-image: url("/vegimages/veg1.jpg");
+    background-size: cover;
+}
+
+#box2 {
+    position: relative;
+    background-image: url("/vegimages/veg2.jpg");
+    background-size: cover;
+}
+
+#box3 {
+    position: relative;
+    background-image: url("/vegimages/veg3.jpg");
+    background-size: cover;
+}
+
+#box4 {
+    position: relative;
+    background-image: url("/vegimages/veg4.jpg");
+    background-size: cover;
+}
+
+
+#box5 {
+    position: relative;
+    background-image: url("/vegimages/veg5.jpg");
+    background-size: cover;
+}
+
+#box6 {
+    position: relative;
+    background-image: url("/vegimages/veg6.jpg");
+    background-size: cover;
+}
+
+#box7 {
+    position: relative;
+    background-image: url("/vegimages/veg7.jpg");
+    background-size: cover;
+
+}
+
+#box8 {
+    position: relative;
+    background-image: url("/vegimages/veg8.jpg");
+    background-size: cover;
+}
+
+#box9 {
+    position: relative;
+    background-image: url("/vegimages/veg9.jpg");
+    background-size: cover;
+}
+
+#box10 {
+    position: relative;
+    background-image: url("/vegimages/veg10.jpg");
+    background-size: cover;
+}
+
+#box11 {
+    position: relative;
+    background-image: url("/vegimages/veg11.jpg");
+    background-size: cover;
+}
+
+#box12 {
+    position: relative;
+    background-image: url("/vegimages/veg12.jpg");
+    background-size: cover;
+}
+
+#box13 {
+    position: relative;
+    background-image: url("/vegimages/veg13.jpg");
+    background-size: cover;
+}
+
+
+#box14 {
+    position: relative;
+    background-image: url("/vegimages/veg14.jpg");
+    background-size: cover;
+}
+
+#box15 {
+    position: relative;
+    background-image: url("/vegimages/veg15.jpg");
+    background-size: cover;
+}
+
+#box16 {
+    position: relative;
+    background-image: url("/vegimages/veg16.jpg");
+    background-size: cover;
+}
+
+#box17 {
+    position: relative;
+    background-image: url("/vegimages/veg17.jpg");
+    background-size: cover;
+}
+
+#box18 {
+    position: relative;
+    background-image: url("/vegimages/veg18.jpg");
+    background-size: cover;
+}
+
+#box19 {
+    position: relative;
+    background-image: url("/vegimages/veg19.jpg");
+    background-size: cover;
+}
+
+#box20 {
+    position: relative;
+    background-image: url("/vegimages/veg20.jpg");
+    background-size: cover;
+}
+
+#box21 {
+    position: relative;
+    background-image: url("/vegimages/veg21.jpg");
+    background-size: cover;
+}
+
+#box22 {
+    position: relative;
+    background-image: url("/vegimages/veg22.jpg");
+    background-size: cover;
+}
+
+#box23 {
+    position: relative;
+    background-image: url("/vegimages/veg23.jpg");
+    background-size: cover;
+}
+
+#box24 {
+    position: relative;
+    background-image: url("/vegimages/veg24.jpg");
+    background-size: cover;
+}
+
+#box25 {
+    position: relative;
+    background-image: url("/vegimages/veg25.jpg");
+    background-size: cover;
+}
+
+#box26 {
+    position: relative;
+    background-image: url("/vegimages/veg26.jpg");
+    background-size: cover;
+}
+
+

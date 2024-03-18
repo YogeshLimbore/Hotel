@@ -1,0 +1,299 @@
+
+
+/*top */
+
+
+#Headr {
+    height: 20px;
+    background-color: #1ce7e7;
+    color: #FFD700;
+}
+
+
+
+
+#first {
+    display: block;
+    width:50%;
+    position: relative;
+    left: 90px;
+    bottom: 650px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+#firstp{
+    display:inline-block;
+    position:relative;
+    left:810px;
+    bottom: 630px;
+    font-size:25px;
+}
+
+
+
+.ContentBox {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: rgba(255, 0, 0, 0.5)
+}
+
+#Box1 {
+    height: 650px;
+    border-radius: 2%;
+    width: 650px;
+    position: relative;
+    top: 150px;
+    left: 90px;
+    background-image: url("/imagesf/fishf.png");
+    background-size: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* Add shadow */
+}
+
+    #Box1:hover {
+        border: 3px solid red;
+    }
+
+
+
+/*buttons*/
+.butt {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.butt:hover {
+        background-color: orangered;
+
+}
+
+
+
+#butt1 {
+    position: relative;
+    left: 400px;
+    bottom: 550px;
+}
+
+#butt2 {
+    position: relative;
+    left: 400px;
+    bottom: 550px;
+    margin-left: 5px;
+}
+
+
+
+
+/*fist right one div*/
+
+#firstR {
+    display: block;
+    height: 250px;
+    width: 520px;
+    position: relative;
+    left: 810px;
+    bottom: 480px;
+    border-radius: 5%;
+    background-color: whitesmoke;
+}
+
+.headingR{
+    font-size:30px;
+
+}
+
+
+.ContentBox1 {
+    display: block;
+    height: 235px;
+    width: 200px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    background-image: url("/images/Vaam.jpg");
+    background-size: cover;
+    border-radius: 4%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7); /* Add shadow */
+}
+
+#firstp2{
+    display:inline-block;
+    position:relative;
+    left:260px;
+    bottom:220px;
+    font-size:25px;
+}
+
+#butt3{
+    display:inline-block;
+    position:relative;
+    left:100px;
+    bottom:110px;
+}
+
+
+
+/*  second one */
+
+
+
+#Services {
+    display:block;
+    height:650px;
+    width: 1050px;
+    position: relative;
+    left:290px;
+    bottom:250px;
+    text-align: center;
+}
+
+
+#sv{
+    font-size:40px;
+    font-weight:300;
+}
+
+#pg2{
+    font-size:20px;
+}
+
+.ContentBox2 {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    top: 50px;
+    border-radius: 3%;
+    background-color: chartreuse;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7); /* Add shadow */
+    margin: 10px; /* Add margin */
+}
+
+
+
+#Boxs1 {
+    display:inline-block;
+    background-image: url("/imagesf/Veg.jpg");
+    background-size: cover;
+}
+
+#Boxs2 {
+    display:inline-block;
+    background-image: url("/imagesf/Non veg.jpg");
+    background-size: cover;
+}
+
+#Boxs3 {
+    display:inline-block;
+    background-image: url("/imagesf/Drinks.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+.highlight {
+    color: orangered; /* Choose your desired color */
+}
+
+
+#BName {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+button {
+    background-color: rgb(10, 3, 0);
+}
+
+
+
+
+
+#AboutUS {
+    display: block;
+    position: relative;
+    left: 850px;
+    bottom: 700px;
+    text-align: left;
+    height: 500px;
+    width: 600px;
+    font-size: 20px;
+    
+}
+
+#AH {
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#h2i {
+    letter-spacing: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+
+#AboutUsI {
+    display: block;
+    position: relative;
+    left: 30px;
+    bottom: 150px;
+    text-align: right;
+    height: 590px;
+    width: 810px;
+}
+
+
+.ContentBox3 {
+    height: 250px;
+    width: 380px;
+    position: relative;
+    top: 40px;
+    right:30px;
+    border-radius: 3%;
+    background-color: chartreuse;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.7); /* Add shadow */
+    margin: 1px; /* Add margin */
+}
+
+#BoxsA1 {
+    display: inline-block;
+    background-image: url("/imagesf/vegg.jpg");
+    background-size: cover;
+}
+
+#BoxsA2 {
+    display: inline-block;
+    background-image: url("/imagesf/fried-fish-with-sauces-wooden-board.jpg");
+    background-size: cover;
+}
+
+#BoxsA3 {
+    display: inline-block;
+    margin-top: 2px;
+    background-image: url("/imagesf/closeup-shot-deliciously-prepared-chicken-served-with-onions-chili-sauce.jpg");
+    background-size: cover;
+}
+
+#BoxsA4 {
+    display: inline-block;
+    margin-top: 2px;
+    background-image: url("/imagesf/fisht.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+
